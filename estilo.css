@@ -1,3 +1,68 @@
 p {
     font-display: flex;
 }
+  /* 🌿 Estilo en tonos amarillo, verde y más */
+
+body {
+  background-color: #f4fcd9; /* Verde muy claro */
+  color: #2e4600; /* Verde oscuro para texto */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f9dc5c; /* Amarillo suave */
+  color: #2e4600;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+nav {
+  background-color: #a8d5ba; /* Verde menta */
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #2e4600;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f4a261; /* Naranja suave para el hover */
+}
+
+section {
+  padding: 20px;
+  background-color: #ffffff; /* Blanco para contraste */
+}
+
+h1, h2, h3 {
+  color: #2e4600;
+}
+
+button {
+  background-color: #f9dc5c;
+  color: #2e4600;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e9c46a;
+}
+
+footer {
+  background-color: #2e4600;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
